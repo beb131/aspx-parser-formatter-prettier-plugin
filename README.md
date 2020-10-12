@@ -1,3 +1,7 @@
-# prettier-plugin-toml
+# prettier-plugin-aspx
 
-Sample code for a [tutorial](https://medium.com/@fvictorio/how-to-write-a-plugin-for-prettier-a0d98c845e70) on how to write a plugin for Prettier.
+Plugin for VSCode Prettier Extension to parse and format .ASPX/.ASCX files.
+
+# ASPX Parser
+
+# VSCode Prettier Formatter Plugin for .ASPX/.ASCX Files
