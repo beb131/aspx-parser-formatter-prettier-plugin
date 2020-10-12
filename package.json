@@ -1,28 +1,40 @@
 {
-  "name": "prettier-plugin-toml",
-  "version": "0.0.1",
-  "description": "",
+  "name": "prettier-plugin-aspx",
+  "version": "1.0.0",
+  "description": "Plugin for VSCode Prettier Extension to parse and format .ASPX/.ASCX files.",
   "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "example": "prettier --plugin . example.toml",
     "test": "jest"
   },
-  "keywords": [
-    "prettier",
-    "toml",
-    "plugin"
-  ],
-  "author": {
-    "name": "Franco Victorio",
-    "email": "victorio.franco@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beb131/aspx-parser-formatter-prettier-plugin.git"
   },
-  "license": "MIT",
+  "keywords": [
+    "aspx",
+    "ascx",
+    "parser",
+    "prettier",
+    "jison",
+    "bison",
+    "html",
+    "c#"
+  ],
+  "author": "Brandon Bachrach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beb131/aspx-parser-formatter-prettier-plugin/issues"
+  },
+  "homepage": "https://github.com/beb131/aspx-parser-formatter-prettier-plugin#readme",
   "dependencies": {
-    "prettier": "^1.15.3",
-    "toml": "^2.3.5"
+    "prettier": "^2.1.2"
   },
   "devDependencies": {
-    "jest": "^24.0.0",
-    "jest-watch-typeahead": "^0.2.1"
+    "jest": "^26.5.3",
+    "jest-watch-typeahead": "^0.6.1",
+    "jison": "^0.4.18"
   }
 }
